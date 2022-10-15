@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+
+  <head>
+    <title>Life Coach</title>
+    <meta charset="utf-8" />
+    <!--[if IE]>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <![endif]-->
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" id="color-switcher-link" />
+    <!-- <link rel="stylesheet" href="css/animations.css" /> -->
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+      <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!--[if lt IE 9]>
+      <div class="bg-danger text-center">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/" class="highlight"
+          >upgrade your browser</a
+        >
+        to improve your experience.
+      </div>
+    <![endif]-->
+
+    <div class="preloader">
+      <div class="preloader_image"></div>
+    </div>
+
+    <!-- search modal -->
+    <div
+      class="modal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="search_modal"
+      id="search_modal"
+    >
+      <div class="widget widget_search">
+        <form method="get" class="searchform form-inline" action="/">
+          <div class="form-group">
+            <input
+              type="text"
+              value=""
+              name="search"
+              class="form-control"
+              placeholder="Search keyword"
+              id="modal-search-input"
+            />
+          </div>
+          <button type="submit" class="theme_button">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- wrappers for visual page editor and boxed version of template -->
+    <div id="canvas">
+      <div id="box_wrapper">
+        <!-- template sections -->
+
+        <section class="intro_section page_mainslider ds">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="images/marwan-asmar2.png" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="slide_description_wrapper">
+                        <div class="slide_description"></div>
+                        <!-- eof .slide_description -->
+                      </div>
+                      <!-- eof .slide_description_wrapper -->
+                    </div>
+                    <!-- eof .col-* -->
+                  </div>
+                  <!-- eof .row -->
+                </div>
+                <!-- eof .container -->
+              </li>
+              <!-- <li>
+                <img src="images/slide02.jpg" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="slide_description_wrapper">
+                        <div class="slide_description">
+                          <div
+                            class="intro-layer"
+                            data-animation="expandUp"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li> -->
+              <!-- <li>
+                <img src="images/slide03.jpg" alt="" />
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="slide_description_wrapper">
+                        <div class="slide_description"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div> -->
+        </section>
+
+        <header class="page_header header_darkgrey columns_padding_0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-3 col-xs-6">
+                <a href="/" class="logo">
+                  <img src="images/logo.png" width="110" height="110" alt="" />
+                  <span class="hidden-xxs"
+                    >Marwan
+                    <strong>Asmar</strong>
+                  </span>
+                </a>
+              </div>
+              <div class="col-md-6 text-center">
+                <!-- main nav start -->
+                <nav class="mainmenu_wrapper">
+                  <ul class="mainmenu nav sf-menu">
+                    <li class="active">
+                      <a href="index.html">Home</a>
+                    </li>
+
+                    <!-- blog -->
+                    <!-- <li>
+                      <a href="blog-right.html">Blog</a>
+                    </li> -->
+                    <!-- eof blog -->
+                  </ul>
+                </nav>
+                <!-- eof main nav -->
+                <span class="toggle_menu">
+                  <span></span>
+                </span>
+              </div>
+              <div class="col-md-3 text-right">
+                <span class="hidden-xxs">
+                  <a href="#" class="social-icon bi-facebook highlight fontsize_24"></a>
+                  <a href="#" class="social-icon bi-twitter highlight fontsize_24"></a>
+                  <a href="#" class="social-icon bi-google highlight fontsize_24"></a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <section
+          class="page_banners ls ms muted_section columns_padding_5 section_padding_top_5 section_padding_bottom_5"
+        >
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="vertical-item content-absolute vertical-center cs">
+                  <!-- <a href="#"> -->
+                    <div class="item-media">
+                      <img src="images/banner01.jpg" alt="" />
+                      <div class="item-content bottom-border">
+                      <div class="display_table">
+                        <div class="display_table_cell">
+                          <h4>
+                            Coach
+                            <strong>Books</strong>
+                          </h4>
+
+                          
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                  <!-- </a> -->
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="vertical-item content-absolute vertical-center cs">
+                  <!-- <a href="#"> -->
+                    <div class="item-media">
+                      <img src="images/banner02.jpg" alt="" />
+                    </div>
+                    <div class="item-content bottom-border">
+                      <div class="display_table">
+                        <div class="display_table_cell">
+                          <h4>
+                            Coach
+                            <strong>Articles</strong>
+                          </h4>
+
+                          
+                        </div>
+                      </div>
+                    </div>
+                  <!-- </a> -->
+                </div>
+              </div>
+
+              <div class="col-sm-4">
+                <div class="vertical-item content-absolute vertical-center cs">
+                  <!-- <a href="#"> -->
+                    <div class="item-media">
+                      <img src="images/banner03.jpg" alt="" />
+                    </div>
+                    <div class="item-content bottom-border">
+                      <div class="display_table">
+                        <div class="display_table_cell">
+                          <h4>
+                            Coaching
+                            <strong>Videos</strong>
+                          </h4>
+
+                          <p class="grey">
+                            Check latest live presentations
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  <!-- </a> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="ls margin_0" />
+        <!--books intro-->
+        <section class="ls ms section_padding_top_30 section_padding_bottom_30">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">accomplishments</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">12 comments</a> -->
+                  </span>
+                </div>
+                <!-- start item -->
+                <div class="vertical-item">
+                  <div class="item-media">
+                    <img src="images/awards.jpeg" alt="" />
+                    <div class="media-links">
+                      <!-- <a
+                        class="abs-link"
+                        title=""
+                        href="blog-single-right.html"
+                      ></a> -->
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h4 class="entry-title">
+                      <!-- <a href="blog-right.html"> -->
+                        <strong>
+                        International Certified Life coach</strong>
+                      <!-- </a> -->
+                      
+                    </h4>
+                    
+
+                    <p>
+                    - ICTC Director of Credentials since 2018 <br>
+                    - Master in Political Sciences (Leader’s communication &amp; psychology focused)<br>
+                    - PHD candidate- researcher in E-Government in the Arab World<br>
+                    - Acting Coach /Les Ateliers du chapeau -Canada/Montreal<br>
+                    - Accredited Life Coach from the ICF (International Coach Federation)<br>
+                    - Accredited Trainer from ATU Arab Trainers Union (Jordan)<br>
+  
+                    </p>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+            <!--video intro-->
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">Video</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">7 comments</a> -->
+                  </span>
+                </div>
+                <!-- start item -->
+                <div class="vertical-item">
+                  <div class="item-media">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <!-- <a
+                        href="//player.vimeo.com/video/1084537"
+                        class="embed-placeholder"
+                      > -->
+                      <video width="420" height="440" controls autoplay>  
+                    <source src="videos/coach-intro.mp4" type="video/mp4">  
+                      </video>
+                        <!-- <img src="images/gallery/04.jpg" alt="" /> -->
+                      <!-- </a> -->
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h4 class="entry-title"><strong>
+                      <!-- <a href="blog-single-video-right.html" -->
+                         Meet Coach Marwan Asmar     <!--</a> -->
+                      </strong>
+                    </h4>
+                    
+
+                    <p>
+                    Marwan Asmar is a Business and Life coach, Director
+                    of Civility Experts Lebanon, Initiator & President
+                    of Role play NGO, and Founder of “M.A. Powers” & 
+                    “La Maison de l’étiquette”.
+                    Following more than 12 years of experience in the 
+                    M.I.C.E industry, his devotion and passion pushed
+                    him to win the International Civility Award and 
+                    become a World Civility Ambassador.
+
+                    </p>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">Featured</span>
+                  <span class="pull-right darklinks">
+                    <a href="#">
+                      <i class="rt-icon2-chevron-thin-left"></i>
+                    </a>
+                    <a href="#">
+                      <i class="rt-icon2-chevron-thin-right"></i>
+                    </a>
+                  </span>
+                </div>
+
+                <div class="cs texture_bg with_padding">
+                  <div class="widget widget_popular_entries">
+                    <ul class="media-list">
+                      <li class="media">
+                        <a class="media-left" href="#">
+                          <img
+                            class="media-object"
+                            src="images/marwan_asmar.jpg"
+                            alt=""
+                          />
+                        </a>
+                        <div class="media-body">
+                          <p>
+                            <a href="#"
+                              >Initiator of the first Robot- Coach in the Arab World 2021</a
+                            >
+                          </p>
+                          <p class="item-meta">
+                            By
+                            <a href="#"></a> 2021
+                          </p>
+                        </div>
+                      </li>
+
+                      <li class="media">
+                        <a class="media-left" href="#">
+                          <img
+                            class="media-object"
+                            src="images/social.jpeg"
+                            alt=""
+                          />
+                        </a>
+                        <div class="media-body">
+                          <p>
+                            <a href="#"
+                              >World Civility Ambassador - I Change Nations - California - USA
+                            </a>
+                          </p>
+                          <p class="item-meta">
+                            By
+                            <a href="#"></a> 2015
+                          </p>
+                        </div>
+                      </li>
+
+                      <li class="media">
+                        <a class="media-left" href="#">
+                          <img
+                            class="media-object"
+                            src="images/awards.jpeg"
+                            alt=""
+                          />
+                        </a>
+                        <div class="media-body">
+                          <p>
+                            <a href="#"
+                              > International Civility Award 2018 - Civility Experts Worldwide - Canada</a
+                            >
+                          </p>
+                          <p class="item-meta">
+                            By
+                            <a href="#"></a> 2018
+                          </p>
+                        </div>
+                      </li>
+
+                      <li class="media">
+                        <a class="media-left" href="#">
+                          <img
+                            class="media-object"
+                            src="images/speaker2.jpeg"
+                            alt=""
+                          />
+                        </a>
+                        <div class="media-body">
+                          <p>
+                            <a href="#"
+                              > Accredited Trainer from ATU Arab Trainers Union (Jordan)</a
+                            >
+                          </p>
+                          <p class="item-meta">
+                            By
+                            <a href="#"></a> ATU
+                          </p>
+                        </div>
+                      </li>
+
+                      <li class="media">
+                        <a class="media-left" href="#">
+                          <img
+                            class="media-object"
+                            src="images/speaker3.jpeg"
+                            alt=""
+                          />
+                        </a>
+                        <div class="media-body">
+                          <p>
+                            <a href="#"
+                              > PHD candidate- researcher in E-Government in the Arab World
+                            </a>
+                          </p>
+                          <p class="item-meta">
+                            By
+                            <a href="#"></a> 2022
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls ms page_portfolio columns_padding_1" id="photos">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12">
+                <div class="vertical-item content-absolute text-center cs">
+                  <div class="item-media">
+                    <img src="images/awards.jpeg" alt="" />
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a
+                          class="p-view prettyPhoto"
+                          title=""
+                          data-gal="prettyPhoto[gal]"
+                          href="images/awards.jpeg"
+                        ></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content darken_gradient">
+                    <!-- <h4 class="entry-title">
+                      <a href="#"
+                        >Consetetur sadipscing elitr, sed diam nonumy</a
+                      >
+                    </h4>
+                    <p class="item-meta greylinks">
+                      By
+                      <a href="#">Admin</a> on Oct 18, 2015
+                    </p> -->
+                  </div>
+                </div>
+              </div>
+              <!-- eof .col- -->
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="vertical-item content-absolute text-center cs">
+                  <div class="item-media">
+                    <img src="images/speaker2.jpeg" alt="" />
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a
+                          class="p-view prettyPhoto"
+                          title=""
+                          data-gal="prettyPhoto[gal]"
+                          href="images/speaker2.jpeg"
+                        ></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content darken_gradient">
+                    <!-- <h4 class="entry-title-small">
+                      <a href="gallery-single.html">Lorem ipsum dolor sitmet</a>
+                    </h4> -->
+                  </div>
+                </div>
+              </div>
+              <!-- eof .col- -->
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="vertical-item content-absolute text-center cs">
+                  <div class="item-media">
+                    <img src="images/book.jpeg" alt="" />
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a
+                          class="p-view prettyPhoto"
+                          title=""
+                          data-gal="prettyPhoto[gal]"
+                          href="images/book.jpeg"
+                        ></a>
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content darken_gradient">
+                    <!-- <h4 class="entry-title-small">
+                      <a href="gallery-single.html"
+                        >Elitr sed diam nonumy eirmod</a
+                      >
+                    </h4> -->
+                  </div>
+                </div>
+              </div>
+              <!-- eof .col- -->
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="vertical-item content-absolute text-center cs">
+                  <div class="item-media">
+                    <img src="images/steps.jpg" alt="" />
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a
+                          class="p-view prettyPhoto"
+                          title=""
+                          data-gal="prettyPhoto[gal]"
+                          href="images/steps.jpg"
+                        ></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content darken_gradient">
+                    <!-- <h4 class="entry-title-small">
+                      <a href="gallery-single.html"
+                        >Amet consetetur sadipscing</a
+                      >
+                    </h4> -->
+                  </div>
+                </div>
+              </div>
+              <!-- eof .col- -->
+
+              <div class="col-lg-3 col-sm-6">
+                <div class="vertical-item content-absolute text-center cs">
+                  <div class="item-media">
+                    <img src="images/speaker.jpeg" alt="" />
+                    <div class="media-links">
+                      <div class="links-wrap">
+                        <a
+                          class="p-view prettyPhoto"
+                          title=""
+                          data-gal="prettyPhoto[gal]"
+                          href="images/speaker.jpeg"
+                        ></a>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content darken_gradient">
+                    <!-- <h4 class="entry-title-small">
+                      <a href="gallery-single.html">Tempor invidunt labore</a>
+                    </h4> -->
+                  </div>
+                </div>
+              </div>
+              <!-- eof .col- -->
+            </div>
+          </div>
+        </section>
+
+        <section
+          class="ls ms section_padding_top_30 section_padding_bottom_25"
+          id="blog"
+        >
+        <!--presentation-->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="block-header">
+                  <span class="highlight">Presentations</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">11 comments</a> -->
+                  </span>
+                </div>
+                <div class="side-item content-padding with_background">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="item-media">
+                        <img src="images/marwan_asmar.jpg" alt="" />
+                        <div class="media-links">
+                          <!-- <a
+                            class="abs-link"
+                            title=""
+                            href="blog-single-right.html"
+                          ></a> -->
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="item-content">
+                        <h4 class="entry-title">
+                          <!-- <a href="blog-single-right.html" -->
+                            What I Train?
+                          
+                        </h4>
+                        <!-- <p class="item-meta greylinks">
+                          By
+                          <a href="#">Admin</a> on Oct 18, 2015
+                        </p> -->
+
+                        <p>
+                        -Situational Leadership<br>
+                        -Effective Communication Skills<br>
+                        -Teamwork Skills<br>
+                        -Emotional Intelligence Skills<br>
+                        -Problem Solving Skills<br>
+                        -Negotiation Skills<br>
+                        -Time Management Skills<br>
+                        -Business Etiquette<br>
+                        -Presentation Skills<br>
+                        -Customer Service Excellence<br> 
+                        -Public Speaking <br>
+                        <!-- -Stress Management<br>
+                        -Selling Skills<br>
+                        -Body Language <br>
+                        -Assertiveness Skills<br>
+                        -Interpersonal Relationships<br>
+                        -Non-verbal Communication<br> -->
+
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!--video-->
+              <div class="col-sm-12">
+                <div class="block-header">
+                  <span class="highlight">Video</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">27 comments</a> -->
+                  </span>
+                </div>
+                <div class="side-item content-padding with_background">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="item-media">
+                        <div class="embed-responsive embed-responsive-3by2">
+                          <video width="420" height="440" controls autoplay>  
+                    <source src="videos/coach-main.mp4" type="video/mp4">  
+                      </video>
+                            <img src="images/gallery/02.jpg" alt="" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="item-content">
+                        <h4 class="entry-title">
+                          <!-- <a href="blog-single-video-right.html" -->
+                            Life Changing Career
+                          
+                        </h4>
+                        
+
+                        <p>
+                        Asmar was capable of changing numerous amounts of career
+                        paths through his coaching services and trainings, yielding
+                        people to become influential leaders in their societies, organizations,
+                        and business workplace. Driven by persistence, his work was a success 
+                        not only at his native country, Lebanon; however, he was enrolled with 
+                        international companies abroad, specifically in the Gulf region.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+<!--presentation-->
+              <div class="col-sm-12">
+                <div class="block-header">
+                  <span class="highlight">Testimonials</span>
+                  <span class="pull-right darklinks">
+                  </span>
+                </div>
+                <div class="side-item content-padding with_background">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="item-media">
+                        <img src="images/gallery/10.jpg" alt="" />
+                        <div class="media-links">
+                          <a
+                            class="abs-link"
+                            title=""
+                            href="#"
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-md-8">
+                      <div class="item-content">
+                        <h4 class="entry-title">
+                          <!-- <a href="blog-single-right.html" -->
+                        Michel Ghneim
+                        
+                        </h4>
+                        
+
+                        <p>
+                         Coach Marwan Asmar played a significant and vital role in changing my career life.
+                          After consecutive trainings, I was able to change my self-perception and choose 
+                          my university major and later on my business path. I can really say that my journey 
+                          is based on many important lectures that I took with him and learned through his experience. 
+                          Despite the fact that my dedication is an important asset that I am building on; however, 
+                          Asmar’s tutoring gave me the motivation and the right cornerstones that my career relies on. 
+                          Most importantly, the best trait that Coach Marwan has is his follow-up for his students, 
+                          which makes you feel your importance within his trainings and pushes you to know more. I 
+                          really recommend companies and people who are striving for success, to take part in his 
+                          training sessions, since it will definitely be an unforgettable, life-changing experience. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls ms page_banners_slider">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="intro_section ds">
+                  <div class="flexslider">
+                    <ul class="slides">
+                      <li>
+                        <img src="images/award-banner.jpeg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  
+                                  
+
+                                  \
+                                </div>
+                                <!-- eof .slide_description -->
+                              </div>
+                              <!-- eof .slide_description_wrapper -->
+                            </div>
+                            <!-- eof .col-* -->
+                          </div>
+                          <!-- eof .row -->
+                        </div>
+                        <!-- eof .container -->
+                      </li>
+                      <!-- <li>
+                        <img src="images/banner_big02.jpg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  <div class="intro-layer">
+                                    <h3>
+                                      Online
+                                      <span class="highlight">
+                                        <strong>Courses</strong>
+                                      </span>
+                                    </h3>
+                                  </div>
+                                  <div class="intro-layer">
+                                    <p>
+                                      Your Success Lives within You Ignite Your
+                                      Unleashed Potential.
+                                      <br />
+                                      Subscribe to my online courses to know how
+                                    </p>
+                                  </div>
+
+                                  <div class="intro-layer">
+                                    <p class="topmargin_40">
+                                      <a href="#" class="theme_button color2">
+                                        <i
+                                          class="rt-icon2-download-outline"
+                                        ></i>
+                                        Try My Courses
+                                      </a>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </li> -->
+
+                      <!-- <li>
+                        <img src="images/banner_big03.jpg" alt="" />
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 text-center">
+                              <div class="slide_description_wrapper">
+                                <div class="slide_description">
+                                  <div class="intro-layer">
+                                    <h3>
+                                      Life
+                                      <span class="highlight">
+                                        <strong>Master</strong>
+                                      </span>
+                                    </h3>
+                                  </div>
+                                  <div class="intro-layer">
+                                    <p>
+                                      Your Resource Source to living a
+                                      Successful and inspirational Life
+                                    </p>
+                                  </div>
+
+                                  <div class="intro-layer">
+                                    <p class="topmargin_40">
+                                      <a href="#" class="theme_button color3">
+                                        <i
+                                          class="rt-icon2-download-outline"
+                                        ></i>
+                                        Try My Courses
+                                      </a>
+                                    </p>
+                                  </div>
+                                </div>
+
+                            </div>
+
+                            </div>
+
+                        </div>
+
+                        </div>
+
+                    </li> -->
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="ls ms section_padding_top_25 section_padding_bottom_50">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">Video</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">15 comments</a> -->
+                  </span>
+                </div>
+                <!-- start item -->
+                <div class="vertical-item">
+                  <div class="item-media">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <div class="embed-responsive embed-responsive-3by2">
+
+                        <video width="420" height="440" controls autoplay>  
+                    <source src="videos/awards2.mp4" type="video/mp4">  
+                      </video>
+                          <img src="images/gallery/07.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h4 class="entry-title">
+                      <!-- <a href="blog-single-video-right.html" -->
+                    Master in Political Sciences (Leader’s communication &amp; psychology focused)
+                    
+                    </h4>
+                   
+
+                    <p>
+                      After years of tutoring, Asmar decided to continue with his PhD in E-Governance and UN Sustainable Development Goals, believing in the vital role of being a world digital citizen, as referred to his lectures given at universities in the Middle East. This adherence encouraged him to instruct the first digital political candidate in the Arab world, helping the youth develop citizenship and technological capabilities.
+                    </p>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">Books</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">9 comments</a> -->
+                  </span>
+                </div>
+                <!-- start item -->
+                <div class="vertical-item">
+                  <div class="item-media">
+                    <img src="images/gallery/05.jpg" alt="" />
+                    <div class="media-links">
+                      <a
+                        class="abs-link"
+                        title=""
+                        href="#"
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h4 class="entry-title">
+                      <!-- <a href="#" -->
+                     Consetetur sadipscing elitr, sed diam nonumy
+                      
+                    </h4>
+                    
+
+                    <p>
+                     second book info here...
+                    </p>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+
+              <div class="col-md-4">
+                <div class="block-header">
+                  <span class="highlight">Presentations</span>
+                  <span class="pull-right darklinks">
+                    <!-- <a href="#">56 comments</a> -->
+                  </span>
+                </div>
+                <!-- start item -->
+                <div class="vertical-item">
+                  <div class="item-media">
+                    <div class="embed-responsive embed-responsive-3by2">
+                      <div class="embed-responsive embed-responsive-3by2">
+
+                        <video width="420" height="440" controls autoplay>  
+                    <source src="videos/awards.mp4" type="video/mp4">  
+                      </video>
+                          <img src="images/gallery/07.jpg" alt="" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-content">
+                    <h4 class="entry-title">
+                      <!-- <a href="blog-single-right.html" -->
+                    
+                      Accreditations 
+                    </h4>
+                    
+
+                    <p>
+                    Master in Political Sciences (Leader’s communication &amp; psychology focused)
+                    - PHD candidate- researcher in E-Government in the Arab World
+                    - Acting Coach /Les Ateliers du chapeau -Canada/Montreal
+                    - Accredited Life Coach from the ICF (International Coach Federation)
+                    - Accredited Trainer from ATU Arab Trainers Union (Jordan)
+  
+                    </p>
+                  </div>
+                </div>
+                <!-- end item -->
+              </div>
+
+              <div class="col-sm-12 text-center">
+                <a
+                  href="#"
+                  class="theme_button inverse muted_button wide_button"
+                  >Load More</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer
+          class="page_footer parallax ds ms section_padding_50 columns_padding_25"
+          id="contact"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="media">
+                  <div class="media-left">
+                    <img
+                      class="media-object img-circle"
+                      src="images/marwan_asmar.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="media-body">
+                    <h2 class="bottommargin_0 highlightlinks">
+                      <a href="./"
+                        >Marwan
+                        <strong>Asmar</strong>
+                      </a>
+                    </h2>
+                    <h3 class="margin_0">Life Coach</h3>
+                    <p class="topmargin_20">
+                      Business and Life coach, Director of Civility 
+                      Experts Lebanon, Initiator & President of Role play 
+                      NGO, and Founder of “M.A. Powers” & “La Maison de l’étiquette”.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                <h2 class="bottommargin_30">Mail form</h2>
+                <form class="contact-form" method="post" action="/">
+                  <p class="contact-form-name">
+                    <label for="footer-name"
+                      >Full Name
+                      <span class="required">*</span>
+                    </label>
+                    <i class="bi bi-person"></i>
+                    <input
+                      type="text"
+                      aria-required="true"
+                      size="30"
+                      value=""
+                      name="name"
+                      id="footer-name"
+                      class="form-control"
+                      placeholder=""
+                    />
+                  </p>
+                  <p class="contact-form-email">
+                    <label for="footer-email"
+                      >Email address
+                      <span class="required">*</span>
+                    </label>
+                    <i class="bi bi-envelope"></i>
+                    <input
+                      type="email"
+                      aria-required="true"
+                      size="30"
+                      value=""
+                      name="email"
+                      id="footer-email"
+                      class="form-control"
+                      placeholder=""
+                    />
+                  </p>
+                  <p class="contact-form-message">
+                    <label for="footer-message">Message</label>
+                    <i class="bi bi-pencil"></i>
+                    <textarea
+                      aria-required="true"
+                      rows="6"
+                      cols="45"
+                      name="message"
+                      id="footer-message"
+                      class="form-control"
+                      placeholder=""
+                    ></textarea>
+                  </p>
+                  <p class="contact-form-submit topmargin_40">
+                    <button
+                      type="submit"
+                      id="footer_contact_form_submit"
+                      name="contact_submit"
+                      class="theme_button color1"
+                    >
+                      Send
+                    </button>
+                  </p>
+                </form>
+              </div>
+
+              <div class="col-md-4 col-sm-6">
+                <h2 class="bottommargin_30">Contacts</h2>
+
+                <div class="media small-teaser">
+                  <div class="media-left">
+                    <i class="bi bi-geo-alt highlight fontsize_24"></i>
+                  </div>
+                  <div class="media-body">
+                    PO Box 97845 Some str. 567, Los Angeles, California, United
+                    States
+                  </div>
+                </div>
+
+                <div class="media small-teaser">
+                  <div class="media-left">
+                    <i class="bi bi-phone highlight fontsize_24"></i>
+                  </div>
+                  <div class="media-body">+966 54 991 0887</div>
+                </div>
+
+
+                <div class="media small-teaser">
+                  <div class="media-left">
+                    <i class="bi bi-envelope highlight fontsize_24"></i>
+                  </div>
+                  <div class="media-body">
+                    <a href="mainto:your@mail.com"
+                      ><span
+                        class="__cf_email__"
+                        data-cfemail="1f66706a6d5f727e7673317c7072"
+                        >[email&#160;protected]</span
+                      ></a
+                    >
+                  </div>
+                </div>
+
+                <div class="topmargin_30">
+                  <a
+                    href="#"
+                    class="social-icon color-bg-icon bi-facebook"
+                  ></a>
+                  <a href="#" class="social-icon color-bg-icon bi-twitter"></a>
+                  <a href="#" class="social-icon color-bg-icon bi-google"></a>
+                  <a
+                    href="#"
+                    class="social-icon color-bg-icon bi-linkedin"
+                  ></a>
+                  <a
+                    href="#"
+                    class="social-icon color-bg-icon bi-pinterest"
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <section class="page_copyright section_padding_25 parallax ds">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <p>
+                  &copy; Copyright 2022 by
+                  <a href="">MH Templates</a>. All
+                  Rights Reserved
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- eof #box_wrapper -->
+    </div>
+    <!-- eof #canvas -->
+
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/switcher.js"></script> -->
+  </body>
+</html>
